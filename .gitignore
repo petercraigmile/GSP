@@ -2,6 +2,9 @@
 .Rhistory
 .Rapp.history
 
+# Mac files
+.DS_Store
+
 # Session Data files
 .RData
 
@@ -34,3 +37,6 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
+
+# Other temp files
+*~
