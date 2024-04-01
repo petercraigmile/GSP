@@ -1,10 +1,10 @@
 
 Edist <- function (x, y=x) {
 
-    if (class(x) != "matrix") {
+    if (!any(class(x)=="matrix")) {
         stop("'x' must be a matrix")
     }
-    if (class(y) != "matrix") {
+    if (!any(class(y)=="matrix")) {
         stop("'y' must be a matrix")
     }
     if (ncol(x) != ncol(y)) {

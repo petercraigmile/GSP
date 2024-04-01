@@ -22,7 +22,7 @@ The releases are created using the makefile.
 
 - This code could be optimized further.
 
-- Most R and C++ functions need further documentation.  I will add
-  further instructions to using this code later.
+- Most R and C++ functions need further documentation.
+
 
 
