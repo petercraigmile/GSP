@@ -12,10 +12,7 @@ Further remarks:
   [http://www.rcpp.org] library to call C++ functions from R; (ii) a R
   only version.  The R/C++ version is quicker.  The 'Rcpp' folder
   contains the R and C++ functions for the R/C++ version.  The
-  'R_only' folder contains the R functions that differ from the R/C++.
-
-- Releases contains complete versions of the code, organized by date.
-The releases are created using the makefile.
+  'R_only' folder contains a version that only uses R functions.
 
 - The parameterization of the covariance function 'GSP.Matern' does
   not match with 'GSP.exp', 'GSP.Diggle', and 'GSP.Gaussian'
