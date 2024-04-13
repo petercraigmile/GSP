@@ -3,7 +3,7 @@
 R and R/C++ code for simulating, fitting, and predicting geostatistical
 stationary processes.  At the moment, the code assumes that each
 process is isotropic (the covariance depends on the distance between
-spatial locations and not the angle).
+spatial locations and not the angle/direction).
 
 
 Further remarks:
